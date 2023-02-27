@@ -65,7 +65,7 @@ li a.active, li a:hover{
 }
 
 
-@media (max-width: 952px){
+@media (max-width: 850px){
     .enlace{
         padding-left: 20px;
     }
@@ -74,7 +74,7 @@ li a.active, li a:hover{
     }
 }
 
-@media (max-width: 858px){
+@media (max-width: 780px){
     .checkbtn{
         display: block;
     }
@@ -124,10 +124,10 @@ li a.active, li a:hover{
 
 /*Main*/
 
-.contenedor{
+.container{
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
+    align-content: center;
     justify-content: center;
 }
 
@@ -464,6 +464,11 @@ li a.active, li a:hover{
   /*Usuario Login*/
 
   /*Productos*/
+.container{
+    max-width: 100%;
+}
+
+
   .card-container{
     display: flex;
     justify-content: center;
@@ -474,3 +479,23 @@ li a.active, li a:hover{
     text-align: center;
     font-size: 14px;
   }
+
+  .section {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card {
+    width: 100%;
+  }
+  
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-text {
+    font-size: 1.2rem;
+  }
+  
