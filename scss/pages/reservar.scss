@@ -3,14 +3,14 @@
 
 .reservar {
     width: 400px;
-    background: $quaternary-colour;
+    background: $deep-blue;
     padding: 30px;
     margin: auto;
     margin-top: 100px;
     border-radius: 4px;
     font-family: 'calibri';
-    color: $tertiary-colour;
-    box-shadow: 7px 13px 37px $secondary-colour;
+    color: $white;
+    box-shadow: 7px 13px 37px $black;
 
     h4{
         text-align: center;
@@ -70,10 +70,10 @@
 
 .Btn_Confirmar{
     width: 100%;
-    background: $quintennial-colour;
+    background: $light-blue;
     border: none;
     padding: 12px;
-    color: $tertiary-colour;
+    color: $white;
     margin: 16px 0;
     font-size: 16px;
 }

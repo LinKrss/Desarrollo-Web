@@ -3,14 +3,14 @@
 
 .form-login {
     width: 400px;
-    background: $quaternary-colour;
+    background: $deep-blue;
     padding: 30px;
     margin: auto;
     margin-top: 100px;
-    border-radius: 4px;
+    border-radius: 5px;
     font-family: 'calibri';
-    color: $tertiary-colour;
-    box-shadow: 7px 13px 37px $secondary-colour;
+    color: $white;
+    box-shadow: 7px 13px 37px $black;
 
     h4{
         font-size: 22px;
@@ -25,35 +25,42 @@
     }
     
     a{
-        color: $tertiary-colour;
+        color: $white;
         text-decoration: none;
 
         &:hover{
-            color: $tertiary-colour;
+            color: $white;
             text-decoration: underline;
         }
     }
 
     .boton {
         width: 100%;
-        background: $quintennial-colour;
+        background: $green;
         border: none;
         padding: 12px;
-        color: $tertiary-colour;
+        color: $white;
         margin: 16px 0;
         font-size: 16px;
+        border-radius: 5px;
   }
   
   .control {
     width: 100%;
-    background: $quaternary-colour;
+    background: $deep-blue;
     padding: 10px;
     border-radius: 4px;
     margin-bottom: 16px;
-    border: 1px solid $quintennial-colour;
+    border: 1px solid $white;
     font-family: 'calibri';
     font-size: 18px;
-    color: $tertiary-colour;
+    color: $white;
   }
   
+}
+
+@media (max-width:576px) {
+    .form-login{
+        width: 350px;
+    }
 }

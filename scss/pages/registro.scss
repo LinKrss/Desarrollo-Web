@@ -1,15 +1,16 @@
 @import"../general/reset.scss";
+@import"../general/colour.scss";
 
 .form-register {
     width: 400px;
-    background: $quaternary-colour;
+    background: $deep-blue;
     padding: 30px;
     margin: auto;
     margin-top: 100px;
     border-radius: 4px;
     font-family: 'calibri';
-    color: $tertiary-colour;
-    box-shadow: 7px 13px 37px $secondary-colour;
+    color: $white;
+    box-shadow: 7px 13px 37px $black;
 
     h4{
         text-align: center;
@@ -25,21 +26,21 @@
     }
 
     a{
-        color: $tertiary-colour;
+        color: $white;
         text-decoration: none;
 
         &:hover{
-            color: $tertiary-colour;
+            color: $white;
             text-decoration: underline;
         }
     }
 
     .botons {
         width: 100%;
-        background: $quintennial-colour;
+        background: $light-blue;
         border: none;
         padding: 12px;
-        color: $tertiary-colour;
+        color: $white;
         margin: 16px 0;
         font-size: 16px;
       }
@@ -47,15 +48,24 @@
   
   .controls {
     width: 100%;
-    background: $quaternary-colour;
+    background: $deep-blue;
     padding: 10px;
     border-radius: 4px;
     margin-bottom: 16px;
-    border: 1px solid $quintennial-colour;
+    border: 1px solid $white;
     font-family: 'calibri';
     font-size: 18px;
-    color: $tertiary-colour;
+    color: $white;
   }
   
-  
+  @media (max-width:576px){
+    .form-register{
+    width: 350px;
+    
+    .botons{
+        margin-top: 50px;
+    }
+
+    }
+  }
   
