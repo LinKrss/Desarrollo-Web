@@ -1,0 +1,79 @@
+@import"../general/reset.scss";
+@import "../general/colour.scss";
+
+.reservar {
+    width: 400px;
+    background: $deep-blue;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: $white;
+    box-shadow: 7px 13px 37px $black;
+
+    h4{
+        text-align: center;
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+  }
+
+  .Elije_Dia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h4{
+        margin-right: 5px;
+    }
+
+    input{
+        margin-left: 5px;
+    }
+}
+
+
+.Elije_Cantidad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h4{
+        margin-right: 5px;
+    }
+
+    input{
+        width: 50px;
+        height: 15px;
+        margin-left: 5px;
+    }
+}
+
+
+
+.Elije_Menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h4{
+        margin-right: 5px;
+    }
+
+    input{
+        width: 50px;
+        height: 15px;
+        margin-left: 5px;
+    }
+}
+
+.Btn_Confirmar{
+    width: 100%;
+    background: $light-blue;
+    border: none;
+    padding: 12px;
+    color: $white;
+    margin: 16px 0;
+    font-size: 16px;
+}
