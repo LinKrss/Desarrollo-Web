@@ -420,7 +420,7 @@ body {
 
 .Btn_Confirmar {
   width: 100%;
-  background: #1f53c5;
+  background: green;
   border: none;
   padding: 12px;
   color: #fff;
@@ -430,3 +430,6 @@ body {
 @media (max-width: 576px) {
   .reservar {
     width: 350px; } }
+
+.btnbtn-success {
+  background: green; }
